@@ -39,7 +39,7 @@ btnRoll.addEventListener('click', function () {
     console.log(randomNumber);
 
     // Display the result on the dice
-    diceElement.src = `dice-${randomNumber}.png`;
+    diceElement.src = `images/dice-${randomNumber}.png`;
     diceElement.classList.remove('hidden');
 
     // Check for rolled 1
